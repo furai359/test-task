@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Test</title>
+</head>
+<body class="body">
+
+    <header class="header-wrap">
+
+        <div class="header-item">
+            <p class="header-item__text text">Всего инцидентов</p>
+            <h2 class="header-item__number">1576</h2>
+            <div class="header-item__data">
+                <div class="triangle up red"></div>
+                <p class="header-item__data-text">+16%</p>
+            </div>
+        </div>
+
+        <hr class="header-border"/>
+
+        <div class="header-item">
+            <p class="header-item__text text">Высокая важность</p>
+            <h2 class="header-item__number red">157</h2>
+            <div class="header-item__data">
+                <div class="triangle up red"></div>
+                <p class="header-item__data-text">+8%</p>
+            </div>
+        </div>
+
+        <hr class="header-border"/>
+
+        <div class="header-item">
+            <p class="header-item__text text">Средняя важность</p>
+            <h2 class="header-item__number orange">253</h2>
+            <div class="header-item__data">
+                <div class="triangle up red"></div>
+                <p class="header-item__data-text">+3%</p>
+            </div>
+        </div>
+
+        <hr class="header-border"/>
+
+        <div class="header-item">
+            <p class="header-item__text text">Всего связей</p>
+            <h2 class="header-item__number">88</h2>
+            <div class="header-item__data">
+                <div class="triangle up"></div>
+                <p class="header-item__data-text">+2%</p>
+            </div>
+        </div>
+
+        <hr class="header-border"/>
+
+        <div class="header-item">
+            <p class="header-item__text text">Исходящий трафик</p>
+            <h2 class="header-item__number">653 МБ</h2>
+            <div class="header-item__data">
+                <div class="triangle down"></div>
+                <p class="header-item__data-text">-8%</p>
+            </div>
+        </div>
+
+        <hr class="header-border"/>
+
+        <div class="header-item">
+            <p class="header-item__text text">Входящий трафик</p>
+            <h2 class="header-item__number">476 МБ</h2>
+            <div class="header-item__data">
+                <div class="triangle up"></div>
+                <p class="header-item__data-text">+16%</p>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="main-info">
+        <p class="main-info__inner-text">Данные не обнаружены</p>
+    </section>
+
+
+    <footer class="footer-wrap">
+        <div class="table">
+            <div class="table-header">
+                <p class="table-header__text text">ПОЛЬЗОВАТЕЛИ ПО ИНЦИДЕНТАМ</p>
+            </div>
+            <div class="table-header__column-names">
+                <p class="table-header__column-name text">Пользователь</p>
+                <p class="table-header__column-name text">Инцидент</p>
+            </div>
+            <div class="table-row">
+                <div class="table-row__content text">Андрей Иванов</div>
+                <div class="table-row__content incidents">
+                    <div class="table-row__content-item">
+                        <span class="table-row__content-item-text ">50 </span>
+                        <span class="radio-btn red"></span>
+                    </div>
+                    <div class="table-row__content-item">
+                        <span class="table-row__content-item-text ">18 </span>
+                        <span class="radio-btn orange"></span>
+                    </div>
+                    <div class="table-row__content-item">
+                        <span class="table-row__content-item-text ">31 </span>
+                        <span class="radio-btn green"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="table-row">
+                <div class="table-row__content text">Михаил Вешкин</div>
+                <div class="table-row__content incidents">
+                    <div class="table-row__content-item">
+                        <span class="table-row__content-item-text ">47 </span>
+                        <span class="radio-btn red"></span>
+                    </div>
+                    <div class="table-row__content-item">
+                        <span class="table-row__content-item-text ">24 </span>
+                        <span class="radio-btn orange"></span>
+                    </div>
+                    <div class="table-row__content-item">
+                        <span class="table-row__content-item-text disabled">0 </span>
+                        <span class="radio-btn green disabled"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="table-row">
+                <div class="table-row__content text">Семен Измайлов</div>
+                <div class="table-row__content incidents">
+                    <div class="table-row__content-item">
+                        <span class="table-row__content-item-text ">32 </span>
+                        <span class="radio-btn red"></span>
+                    </div>
+                    <div class="table-row__content-item">
+                        <span class="table-row__content-item-text ">0 </span>
+                        <span class="radio-btn orange disabled"></span>
+                    </div>
+                    <div class="table-row__content-item">
+                        <span class="table-row__content-item-text disabled">12 </span>
+                        <span class="radio-btn green"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="table-row">
+                <div class="table-row__content text">Николай Островский</div>
+                <div class="table-row__content incidents">
+                    <div class="table-row__content-item">
+                        <span class="table-row__content-item-text ">11 </span>
+                        <span class="radio-btn red"></span>
+                    </div>
+                    <div class="table-row__content-item">
+                        <span class="table-row__content-item-text ">7 </span>
+                        <span class="radio-btn orange"></span>
+                    </div>
+                    <div class="table-row__content-item">
+                        <span class="table-row__content-item-text ">0 </span>
+                        <span class="radio-btn green disabled"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="table-row">
+                <div class="table-row__content text">Константин Константинопольский</div>
+                <div class="table-row__content incidents">
+                    <div class="table-row__content-item">
+                        <span class="table-row__content-item-text disabled">0 </span>
+                        <span class="radio-btn red disabled"></span>
+                    </div>
+                    <div class="table-row__content-item">
+                        <span class="table-row__content-item-text disabled">24 </span>
+                        <span class="radio-btn orange disabled"></span>
+                    </div>
+                    <div class="table-row__content-item">
+                        <span class="table-row__content-item-text ">8 </span>
+                        <span class="radio-btn green"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="table-row">
+                <div class="table-row__content text">Александр Овчинников</div>
+                <div class="table-row__content incidents">
+                    <div class="table-row__content-item">
+                        <span class="table-row__content-item-text disabled">0 </span>
+                        <span class="radio-btn red disabled"></span>
+                    </div>
+                    <div class="table-row__content-item">
+                        <span class="table-row__content-item-text disabled">13 </span>
+                        <span class="radio-btn orange"></span>
+                    </div>
+                    <div class="table-row__content-item">
+                        <span class="table-row__content-item-text disabled">7 </span>
+                        <span class="radio-btn green"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="table">
+            <div class="table-header">
+                <p class="table-header__text text">КАТЕГОРИИ САЙТОВ</p>
+            </div>
+            <div class="table-header__column-names">
+                <p class="table-header__column-name text">Категория <span class="arrow down"> </span></p>
+                <p class="table-header__column-name text">Количество инцидентов</p>
+            </div>
+            <div class="table-row">
+                <div class="table-row__content text">Поисковики</div>
+                <div class="table-row__content ctg">
+                    <p class="ctg__main-number">1 257</p>
+                    <div class="triangle up red ctg"></div>
+                    <p class="ctg__percent">+3%</p>
+                </div>
+            </div>
+            <div class="table-row">
+                <div class="table-row__content text">Новостные порталы</div>
+                <div class="table-row__content ctg">
+                    <p class="ctg__main-number">1 129</p>
+                    <div class="triangle down green ctg"></div>
+                    <p class="ctg__percent">-2.1%</p>
+                </div>
+            </div>
+            <div class="table-row">
+                <div class="table-row__content text">Развлекательные</div>
+                <div class="table-row__content ctg">
+                    <p class="ctg__main-number">987</p>
+                    <div class="triangle up red ctg"></div>
+                    <p class="ctg__percent">+7%</p>
+                </div>
+            </div>
+            <div class="table-row">
+                <div class="table-row__content text">Категория с длинным названием, которое обрезается по ширине...</div>
+                <div class="table-row__content ctg">
+                    <p class="ctg__main-number">596</p>
+                    <div class="triangle down green ctg"></div>
+                    <p class="ctg__percent">-3%</p>
+                </div>
+            </div>
+            <div class="table-row">
+                <div class="table-row__content text">Игры</div>
+                <div class="table-row__content ctg">
+                    <p class="ctg__main-number">431</p>
+                    <div class="triangle up red ctg"></div>
+                    <p class="ctg__percent">+1%</p>
+                </div>
+            </div>
+            <div class="table-row">
+                <div class="table-row__content text">Форумы</div>
+                <div class="table-row__content ctg">
+                    <p class="ctg__main-number">147</p>
+                    <div class="triangle up red ctg"></div>
+                    <p class="ctg__percent">+2%</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="table">
+            <div class="table-header">
+                <p class="table-header__text text">ДИСЦИПЛИНА</p>
+            </div>
+
+            <div class="table-header__column-names">
+                <p class="table-header__column-name text">Дата</p>
+                <p class="table-header__column-name text">Приход</p>
+                <p class="table-header__column-name text">Уход</p>
+                <p class="table-header__column-name text">Рабочее время</p>
+            </div>
+            <div class="table-row discipline">
+                <div class="table-row__content">20.04</div>
+                <div class="table-row__content">08:07<span class="time-count red"> +7мин</span></div>
+                <div class="table-row__content">16:55<span class="time-count red"> -4мин</span></div>
+                <div class="table-row__content red">07:48</div>
+            </div>
+            <div class="table-row discipline">
+                <div class="table-row__content">19.04</div>
+                <div class="table-row__content">07:56<span class="time-count green"> -7мин</span></div>
+                <div class="table-row__content">16:56<span class="time-count red"> +4мин</span></div>
+                <div class="table-row__content green">08:00</div>
+            </div>
+            <div class="table-row discipline">
+                <div class="table-row__content">18.04</div>
+                <div class="table-row__content">09:30<span class="time-count red"> +1ч30мин</span></div>
+                <div class="table-row__content">18:30<span class="time-count green"> +1ч30мин</span></div>
+                <div class="table-row__content green">08:00</div>
+            </div>
+            <div class="table-row discipline">
+                <div class="table-row__content">17.04</div>
+                <div class="table-row__content">08:47<span class="time-count red"> +47мин</span></div>
+                <div class="table-row__content">17:47<span class="time-count green"> +47мин</span></div>
+                <div class="table-row__content green">08:00</div>
+            </div>
+            <div class="table-row discipline">
+                <div class="table-row__content">16.04</div>
+                <div class="table-row__content">09:30<span class="time-count red"> +12мин</span></div>
+                <div class="table-row__content">18:30<span class="time-count red"> -5мин</span></div>
+                <div class="table-row__content red">07:43</div>
+            </div>
+            <div class="table-row discipline">
+                <div class="table-row__content">14.04</div>
+                <div class="table-row__content">08:00<span class="time-count "> <span class="dash">—</span></span></div>
+                <div class="table-row__content">16:57<span class="time-count red"> -3мин</span></div>
+                <div class="table-row__content red">07:43</div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
